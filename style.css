@@ -7,6 +7,8 @@
     --Dark-gray: #969696;
 
     --Kumbh-Sans:"Kumbh Sans", sans-serif;
+
+    --Font_Size-18: 1.125rem;
 }
 
 * {
@@ -20,12 +22,12 @@
 
 .l-flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     background-color: var(--Dark-cyan);
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 
@@ -52,4 +54,55 @@ main {
     margin-left: 7.188rem;
     margin-right: 7.188rem;
     margin-top: 5.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.c-card-container {
+    margin-bottom: 0.5rem;
+}
+
+.c-card__name {
+    margin-right: 0.5rem;
+    font-size: var(--Font_Size-18);
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: bold;
+}
+
+.c-card__age {
+    font-size: var(--Font_Size-18);
+    color: var(--Dark-grayish-blue);
+}
+
+.c-card__location {
+    font-size: 0.875rem;
+    margin-bottom: 1.75rem;
+    color: var(--Dark-grayish-blue);
+}
+
+.separator {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #E8E9EC;
+    margin-bottom: 1.5rem;
+}
+
+.l-list {
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.l-list__item {
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.l-list__header {
+    font-size: var(--Font_Size-18);
+    font-weight: bold;
+}
+
+.l-list_text {
+    font-size: 0.625rem;
+    color: var(--Dark-gray);
+    letter-spacing: 1.5px;
 }
