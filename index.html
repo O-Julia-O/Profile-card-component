@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Profile card component</title>
-  <link rel="stylesheet" href="clear.css">
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <title>Profile card component</title>
+    <link rel="stylesheet" href="clear.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- MAIN -->
+    <main>
+      <!-- Starts Card -->
+      <article class="c-card">
+        <!-- bg-image -->
+        <img
+          class="c-card__img"
+          src="./images/bg-pattern-card.svg"
+          alt="background"
+        />
+        <!-- phooto of author -->
+        <img
+          class="c-card__img"
+          src="./images/image-victor.jpg"
+          alt="The photo of author"
+        />
 
-  80K
-  Followers
+        <!-- info about owner -->
+        <h1 class="c-card__name">Victor Crest</h1>
+        <p class="c-card__age">26</p>
+        <p class="c-card__location">London</p>
 
-  803K
-  Likes
+        <!-- separator -->
+        <hr />
 
-  1.4K
-  Photos
-</body>
+        <!-- Social data -->
+        <div class="c-card__details">
+          <ul>
+            <li>
+              <h2>80K</h2>
+              <p>Followers</p>
+            </li>
+            <li>
+              <h2>803K</h2>
+              <p>Likes</p>
+            </li>
+            <li>
+              <h2>1.4K</h2>
+              <p>Photos</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
