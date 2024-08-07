@@ -27,7 +27,13 @@
 }
 
 main {
+    background: url('./images/bg-pattern-top.svg') right bottom no-repeat, url('./images/bg-pattern-bottom.svg') left top no-repeat;
     background-color: var(--Dark-cyan);
+    background-size: 100vw 100vh, 100vw 100vh;
+
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, right bottom;
+
     min-height: 100vh;
 }
 
