@@ -23,6 +23,7 @@
 }
 
 main {
+    background-color: var(--Dark-cyan);
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -30,9 +31,11 @@ main {
 
 .c-card {
     position: relative;
+    background-color: white;
     border-radius: 15px;
     overflow: hidden;
     text-align: center;
+    z-index: 0;
 }
 
 .c-card_background {
