@@ -18,9 +18,35 @@
     list-style: none;
 }
 
-main {
+.l-flex {
     display: flex;
+}
+
+main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.c-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.c-card_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.c-card_athor {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 7.188rem;
+    margin-right: 7.188rem;
+    margin-top: 5.75rem;
 }
