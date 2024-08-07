@@ -106,3 +106,14 @@ main {
     color: var(--Dark-gray);
     letter-spacing: 1.5px;
 }
+
+@media screen and (min-width: 48em){
+    .c-card_background {
+        width: 100%;
+    }
+    /* photo */
+    .c-card_athor {
+        margin-left: 7.938rem;
+        margin-right: 7.938rem;
+    }
+}
