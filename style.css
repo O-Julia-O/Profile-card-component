@@ -12,4 +12,13 @@
 * {
     font-family: var(--Kumbh-Sans);
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
