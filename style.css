@@ -38,6 +38,8 @@ main {
     overflow: hidden;
     text-align: center;
     z-index: 0;
+
+    box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.5048);
 }
 
 .c-card_background {
